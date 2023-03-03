@@ -1,0 +1,16 @@
+{
+  "name": "Steam remove confirm age message",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Remove confirm age message",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.steamcommunity.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
